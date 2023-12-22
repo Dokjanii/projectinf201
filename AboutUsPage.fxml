@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1500.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectpattern.AboutUsController">
+    <children>
+        <Label layoutX="27.0" layoutY="265.0" textFill="#efefef">
+            <font>
+                <Font name="Verdana" size="36.0" />
+            </font>
+        </Label>
+        <Label layoutX="140.0" layoutY="103.0" prefHeight="83.0" prefWidth="407.0" text="About us" textFill="#302d2d">
+            <font>
+                <Font name="System Bold" size="48.0" />
+            </font></Label>
+        <Button fx:id="LoginButF" layoutX="1333.0" layoutY="29.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="130.0" style="-fx-background-radius: 10; -fx-background-color: #5FB4B7;" text="Login" textFill="#ece5e5">
+            <font>
+                <Font size="16.0" />
+            </font></Button>
+        <ImageView fitHeight="133.0" fitWidth="247.0" layoutX="61.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_1.png" />
+            </image>
+        </ImageView>
+        <Hyperlink fx:id="main" layoutX="1242.0" layoutY="31.0" text="Main" textFill="#1b1a1a">
+            <font>
+                <Font size="18.0" />
+            </font></Hyperlink>
+        <Accordion />
+      <ImageView fitHeight="345.0" fitWidth="506.0" layoutX="140.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/img_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="515.0" fitWidth="548.0" layoutX="784.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/img.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="463.0" layoutY="672.0" text="At Myers &amp; Briggs Foundation, our work is about the power of self-awareness">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Line endX="312.99993896484375" layoutX="772.0" layoutY="735.0" startX="-290.20001220703125" strokeWidth="0.5" />
+      <Line endX="351.4000244140625" layoutX="746.0" layoutY="662.0" startX="-300.6000061035156" strokeWidth="0.5" />
+      <Label layoutX="483.0" layoutY="699.0" text=" and the appreciation of our unique differences. We invite you to join us!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

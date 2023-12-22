@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1500.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectpattern.LoginErrorJ">
+    <children>
+        <Label layoutX="27.0" layoutY="265.0" textFill="#efefef">
+            <font>
+                <Font name="Verdana" size="36.0" />
+            </font>
+        </Label>
+        <Label layoutX="74.0" layoutY="256.0" text="Free personality test" textFill="#302b2b">
+            <font>
+                <Font name="Yu Gothic UI Semibold" size="32.0" />
+            </font></Label>
+        <Label layoutX="74.0" layoutY="311.0" prefHeight="83.0" prefWidth="407.0" text="Take the test" textFill="#302d2d">
+            <font>
+                <Font name="System Bold" size="56.0" />
+            </font></Label>
+        <Button fx:id="lets" layoutX="74.0" layoutY="606.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="263.0" style="-fx-background-radius: 10; -fx-background-color: #5FB4B7;" text="Let's do it" textFill="#fcf5f5">
+            <font>
+                <Font size="28.0" />
+            </font></Button>
+        <Button fx:id="LoginButF" layoutX="1333.0" layoutY="29.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="130.0" style="-fx-background-radius: 10; -fx-background-color: #5FB4B7;" text="Login" textFill="#282525">
+            <font>
+                <Font size="16.0" />
+            </font></Button>
+        <ImageView fitHeight="133.0" fitWidth="247.0" layoutX="61.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_1.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="photo" fitHeight="556.0" fitWidth="689.0" layoutX="774.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_8.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="74.0" layoutY="394.0" prefHeight="35.0" prefWidth="534.0" text="Only 5-10 minutes to get a “freakishly accurate” ">
+            <font>
+                <Font name="Yu Gothic UI Semibold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="74.0" layoutY="444.0" text="description of who you are and why you do">
+            <font>
+                <Font name="Yu Gothic UI Semibold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="74.0" layoutY="498.0" text="things the way you do.">
+            <font>
+                <Font name="Yu Gothic UI Semibold" size="24.0" />
+            </font>
+        </Label>
+        <Hyperlink fx:id="aboutUs" layoutX="1212.0" layoutY="35.0" text="About us" textFill="#1b1a1a">
+            <font>
+                <Font size="14.0" />
+            </font></Hyperlink>
+        <Accordion />
+      <ImageView fx:id="imageNot" fitHeight="1013.0" fitWidth="1509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/img_11.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="234.0" fitWidth="374.0" layoutX="548.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/img_12.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="regErr" layoutX="627.0" layoutY="416.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="216.0" style="-fx-background-radius: 10; -fx-background-insets: 25;" textFill="WHITE" />
+      <Button layoutX="860.0" layoutY="291.0" mnemonicParsing="false" prefWidth="30.0" style="-fx-background-insets: 25; -fx-background-radius: 40;" text="." textFill="#f7f4f4" />
+      <Button fx:id="back" layoutX="875.0" layoutY="290.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="30.0" style="-fx-background-insets: 25;" text="." textFill="#fcf7f7" />
+    </children>
+</AnchorPane>

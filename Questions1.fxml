@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1500.0" style="-fx-background-color: #398E91; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectpattern.Questions1J">
+    <children>
+        <Button fx:id="takeTest" layoutX="30.0" layoutY="141.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="234.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;" text="Take test" textFill="#716d6d">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="60.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_7.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="89.0" fitWidth="52.0" layoutX="238.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_20.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="home" layoutX="17.0" layoutY="195.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="247.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Home" textFill="#f4f2f2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="setting" layoutX="13.0" layoutY="314.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="269.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Setting" textFill="#fffefe">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="types" layoutX="45.0" layoutY="252.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="282.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Personality types" textFill="WHITE">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="30.0" layoutY="93.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="234.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" textFill="#f4f2f2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_18.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_5.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="88.0" fitWidth="214.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_3.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_19.png" />
+            </image>
+        </ImageView>
+        <AnchorPane layoutX="264.0" layoutY="20.0" prefHeight="746.0" prefWidth="1212.0" style="-fx-background-color: #ffffff; -fx-background-radius: 15;">
+            <children>
+            <ImageView fitHeight="38.0" fitWidth="61.0" layoutX="33.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo/img_27.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="back" layoutX="37.0" layoutY="60.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="52.0" style="-fx-background-insets: 25;" />
+            <Button fx:id="next" layoutX="1020.0" layoutY="673.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #5FB4B7; -fx-background-radius: 15;" text="Next" textFill="#fffafa">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="505.0" layoutY="42.0" text="Question 1" textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="505.0" layoutY="180.0" text="Question 2" textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="505.0" layoutY="360.0" text="Question 3" textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="505.0" layoutY="521.0" text="Question 4" textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="387.0" layoutY="80.0" text="You regularly make new friends." textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="329.0" layoutY="230.0" text="You feel comfortable just walking up to someone" textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="358.0" layoutY="405.0" text="You enjoy participating in group activities." textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="401.0" layoutY="571.0" text="You regularly make new friends." textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="317.0" layoutY="265.0" text=" you find interesting and striking up a conversation." textFill="#897e7e">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="48.0" fitWidth="529.0" layoutX="391.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo/img_30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="529.0" layoutX="387.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo/img_30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="529.0" layoutX="386.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo/img_30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="529.0" layoutX="391.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo/img_30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="38.0" layoutX="1115.0" layoutY="681.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo/img_29.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="agr1" layoutX="393.0" layoutY="133.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" textFill="WHITE" />
+            <Button fx:id="dis1" layoutX="590.0" layoutY="133.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" />
+            <Button fx:id="agr2" layoutX="388.0" layoutY="319.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" />
+            <Button fx:id="dis2" layoutX="589.0" layoutY="319.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" />
+            <Button fx:id="agr3" layoutX="388.0" layoutY="463.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" />
+            <Button fx:id="dis3" layoutX="585.0" layoutY="463.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" />
+            <Button fx:id="agr4" layoutX="393.0" layoutY="630.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" />
+            <Button fx:id="dis4" layoutX="590.0" layoutY="630.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-insets: 25; -fx-background-radius: 25;" />
+            <Button fx:id="logOut" layoutX="1060.0" layoutY="34.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" style="-fx-background-color: #5FB4B7; -fx-background-radius: 25;" text="LogOut" textFill="WHITE">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="14.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="270.0" fitWidth="213.0" layoutX="40.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_23.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="help" layoutX="79.0" layoutY="540.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" style="-fx-background-insets: 25;" />
+    </children>
+</AnchorPane>

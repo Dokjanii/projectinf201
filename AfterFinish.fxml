@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1500.0" style="-fx-background-color: #398E91; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectpattern.AfterFinishJ">
+    <children>
+        <Button fx:id="takeTest" layoutX="30.0" layoutY="141.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="234.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;" text="Take test" textFill="#716d6d">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="60.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_7.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="89.0" fitWidth="52.0" layoutX="238.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_20.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="home" layoutX="17.0" layoutY="195.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="247.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Home" textFill="#f4f2f2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="setting" layoutX="13.0" layoutY="314.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="269.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Setting" textFill="#fffefe">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="types" layoutX="45.0" layoutY="252.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="282.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Personality types" textFill="WHITE">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="30.0" layoutY="93.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="234.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" textFill="#f4f2f2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_18.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_5.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="88.0" fitWidth="214.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_3.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_19.png" />
+            </image>
+        </ImageView>
+        <AnchorPane layoutX="264.0" layoutY="16.0" prefHeight="746.0" prefWidth="1212.0" style="-fx-background-color: #ffffff; -fx-background-radius: 15;">
+            <children>
+            <TextArea fx:id="TypeText" layoutX="100.0" layoutY="351.0" prefHeight="152.0" prefWidth="770.0" style="-fx-background-insets: 100;" text="An Executive (ESTJ) is someone with the Extraverted, Observant, Thinking,&#10;and Judging personality traits. They possess great fortitude, emphatically &#10;following their own sensible judgment. They often serve as a stabilizing &#10;force among others, able to offer solid direction amid adversity." wrapText="true">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="20.0" />
+               </font>
+            </TextArea>
+            <Label layoutX="99.0" layoutY="130.0" text="Your personality type is">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="mbti" layoutX="483.0" layoutY="130.0" text="ESTJ">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="typename" layoutX="100.0" layoutY="202.0" text="Executive">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="272.0" text="Personality">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Line endX="-100.0" endY="125.20001220703125" layoutX="215.0" layoutY="514.0" startX="-100.0" stroke="#43989b" strokeWidth="4.0" />
+            <Label fx:id="author" layoutX="151.0" layoutY="610.0" text="Edmund Burke">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="quote" layoutX="150.0" layoutY="512.0" prefHeight="88.0" prefWidth="859.0" style="-fx-background-insets: 100;">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="20.0" />
+               </font></TextArea>
+            <Button fx:id="logOut" layoutX="1060.0" layoutY="34.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" style="-fx-background-color: #5FB4B7; -fx-background-radius: 25;" text="LogOut" textFill="WHITE">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="14.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="270.0" fitWidth="213.0" layoutX="40.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_23.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="help" layoutX="79.0" layoutY="540.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" style="-fx-background-insets: 25;" />
+    </children>
+</AnchorPane>

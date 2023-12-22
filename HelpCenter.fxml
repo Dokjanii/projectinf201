@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1500.0" style="-fx-background-color: #398E91; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectpattern.HelpCenterJ">
+    <children>
+        <Button fx:id="takeTest" layoutX="30.0" layoutY="141.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="234.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Take test" textFill="#fcfcfc">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="60.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_4.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="home" layoutX="17.0" layoutY="195.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="247.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Home" textFill="#f4f2f2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="setting" layoutX="13.0" layoutY="314.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="269.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Setting" textFill="#fffefe">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="types" layoutX="45.0" layoutY="252.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="282.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" text="Personality types" textFill="WHITE">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="30.0" layoutY="93.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="234.0" style="-fx-background-color: #398E91; -fx-background-radius: 25;" textFill="#f4f2f2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_18.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_5.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="88.0" fitWidth="214.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_3.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="60.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_19.png" />
+            </image>
+        </ImageView>
+        <AnchorPane layoutX="264.0" layoutY="16.0" prefHeight="746.0" prefWidth="1212.0" style="-fx-background-color: #ffffff; -fx-background-radius: 15;">
+            <children>
+            <Label layoutX="84.0" layoutY="83.0" text="Frequently Asked Questions (FAQ)">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="32.0" />
+               </font>
+            </Label>
+            <Line endX="932.0" layoutX="184.0" layoutY="148.0" startX="-100.0" strokeWidth="3.0" />
+            <TextArea layoutX="83.0" layoutY="173.0" prefHeight="519.0" prefWidth="1034.0" style="-fx-background-insets: 55;" text="1. What is PersonalityTest?&#10;PersonalityTest is an interactive platform designed to help individuals discover their personality types based on the Myers-Briggs &#10;Type Indicator (MBTI). It offers a user-friendly interface guiding users through a series of questions to identify personality dimensions.&#10;&#10;2. How does the MBTI assessment work on PersonalityTest? &#10;The MBTI assessment on PersonalityTest is divided into four key dimensions:&#10;Extroversion vs. Introversion, Sensing vs. Intuition, Thinking vs. Feeling, and Judging vs. Perceiving. Users answer a set of thoughtfully &#10;crafted questions to determine their preferences in each dimension.&#10;&#10;3. Are the results of the personality test accurate?&#10;PersonalityTest provides an interpretation of your responses based on MBTI theory. While many find the results insightful and accurate, &#10;it's essential to remember that the MBTI is a self-reported assessment and may not fully capture the complexity of an individual's personality.&#10;&#10;4. What kind of recommendations can I expect based on my personality type?&#10;Upon completing the test, PersonalityTest offers personalized recommendations such as books, activities, or events aligned with your &#10;personality type. These suggestions aim to support personal growth and cater to your interests and tendencies.&#10;&#10;5. Can I retake the test?&#10;Yes, users can retake the assessment on PersonalityTest. This feature allows individuals to track their &#10;personality development over time and observe any changes in their preferences">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextArea>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="270.0" fitWidth="213.0" layoutX="40.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/img_23.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="help" layoutX="79.0" layoutY="540.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" style="-fx-background-insets: 25;" />
+    </children>
+</AnchorPane>
